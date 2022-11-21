@@ -10,6 +10,7 @@ const App = () => {
         <div className="app">
             <AppHeader/>
             <main>
+             
                 <RandomChar/>
                 <div className="char__content">
                     <CharList/>
