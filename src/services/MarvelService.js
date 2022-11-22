@@ -29,7 +29,8 @@ class MarvelService{
             description : char.description ?  char.description.slice(0,200)+'...' : "There are not description for this character...I am so sorry=(",
             thumbnail: char.thumbnail.path + '.' + char.thumbnail.extension,
             homepage: char.urls[0].url,
-            wiki: char.urls[1].url
+            wiki: char.urls[1].url,
+            comics: char.comics.items
         }
     }
 }
