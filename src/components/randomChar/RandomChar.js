@@ -18,7 +18,7 @@ class RandomChar extends Component {
 
     componentDidMount(){
         // add error
-        this.foo.bar = 0;
+        // this.foo.bar = 0;
         this.updateChar();
         // this.timerId = setInterval(this.updateChar, 3000);
         // console.log('mount');
