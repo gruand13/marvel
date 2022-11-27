@@ -21,7 +21,7 @@ class MarvelService{
         const res = await this.getResource(`${this._apiBase}characters/${id}?${this._apiKey}`);
         return this._transformCharacter(res.data.results[0]);
     }
-
+//  just
     _transformCharacter = (char) =>{
 
         return {
